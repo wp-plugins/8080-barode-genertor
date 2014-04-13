@@ -1,0 +1,23 @@
+<?php
+/*
+Plugin Name:  Barcode generator:8080
+Plugin URI: http://www.8080.com.pl/plugins/8080-barcode-generator
+Description: Display barcode as a png.
+Version: 1.0
+Author: Michal Lipinski
+Author URI: http://www.8080.com.pl
+License: GPLv2
+*/
+
+add_shortcode ('barcode','m8080_generate_barcode');
+
+function m8080_generate_barcode($attr){
+	$attr=apply_filters('m8080_barcode',$attr);
+	$text = (isset($attr["text"])?$attr["text"]:"0");
+	$size = (isset($attr["size"])?$attr["size"]:"20");
+	$text_size = (isset($attr["text_size"])?$attr["text_size"]:"0");
+	$code_type = (isset($attr["code_type"])?$attr["code_type"]:"code128");
+	echo '<img src="'.plugin_dir_url(__FILE__).'lib/barcode.php?text='.$text.'&size='.$size.'&size_tekst='.$text_size.'&codetype='.$code_type.'" alt="barcode"/>';
+}
+
+?>
