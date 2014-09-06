@@ -2,7 +2,7 @@
 Contributors: dwawobieg
 Donate link: http://www.8080.com.pl/donation/
 Requires at least: 3.3
-Stable tag: 1.0
+Stable tag: 1.0.1
 Contributors: dwawobieg
 Tags: code128, barcode, barcode generator, code39, code25
 Tested up to: 3.8
@@ -17,13 +17,13 @@ To add barcode in yours  site you have to only put simple shortcode wherever you
 [**DEMO**](http://www.8080.com.pl/plugins/8080-barcode-generator)
 
 **For example:**
-```
+`
 [barcode text="1234test" size="100" text_size="10" codetype="code128"]
-```
+`
 This  shortcode  generate barcode with code type CODE128 coding "1234test" height of barcode is 100px and size of text is 10px.
 
-For advanced usage you can use  ```m8080_barcode``` filter:
-```
+For advanced usage you can use  `m8080_barcode` filter:
+`
 add_filter('m8080_barcode','m8080_test');
 function m8080_test($attr){
 	$attr['text']='1243abcert2';
@@ -32,7 +32,7 @@ function m8080_test($attr){
 	$attr['code_type']='code128';
 	return $attr;
 }
-```
+`
 
 == Installation ==
 Upload 8080-barcode-generator directory to the /wp-content/plugins/ directory
@@ -43,4 +43,6 @@ Use shortcode wherever you want.
 1. examle of  CODE128
 
 == Changelog ==
+1.0.1 Little changes in readme.txt
+
 1.0 First version
