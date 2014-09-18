@@ -1,11 +1,11 @@
 === 8080 Barcode Generator ===
 Contributors: dwawobieg
-Donate link: http://www.8080.com.pl/donation/
+Donate link: http://www.mlipinski.pl/donate
 Requires at least: 3.3
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Contributors: dwawobieg
 Tags: code128, barcode, barcode generator, code39, code25
-Tested up to: 3.8
+Tested up to: 4.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Use a simple shortcode to generate barcode.
 == Description ==
 With 8080 Barode Genertor you can generte barcodes in CODE128, CODE39, CODE25, CODABAR.
 To add barcode in yours  site you have to only put simple shortcode wherever you want.
-[**DEMO**](http://www.8080.com.pl/plugins/8080-barcode-generator)
+[**DEMO**](http://www.mlipinski.pl/plugins/barcode-generator/)
 
 **For example:**
 `
@@ -43,6 +43,8 @@ Use shortcode wherever you want.
 1. examle of  CODE128
 
 == Changelog ==
+1.0.2 Little changes in readme.txt
+
 1.0.1 Little changes in readme.txt
 
 1.0 First version

@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name:  Barcode generator:8080
-Plugin URI: http://www.freelancer-wordpress.com/plugins/barcode-generator
+Plugin Name:  Barcode generator
+Plugin URI: http://www.mlipinski.pl/plugins/barcode-generator
 Description: Display barcode as a png.
 Version: 1.0.1
 Author: Michal Lipinski
-Author URI: http://www.freelancer-wordpress.com
+Author URI: http://www.mlipinski.pl
 License: GPLv2
 */
 
