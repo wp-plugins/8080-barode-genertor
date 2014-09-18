@@ -3,7 +3,7 @@
 Plugin Name:  Barcode generator
 Plugin URI: http://www.mlipinski.pl/plugins/barcode-generator
 Description: Display barcode as a png.
-Version: 1.0.1
+Version: 1.0.2
 Author: Michal Lipinski
 Author URI: http://www.mlipinski.pl
 License: GPLv2
