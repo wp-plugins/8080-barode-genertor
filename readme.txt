@@ -2,7 +2,7 @@
 Contributors: dwawobieg
 Donate link: http://www.mlipinski.pl/donate
 Requires at least: 3.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Contributors: dwawobieg
 Tags: code128, barcode, barcode generator, code39, code25
 Tested up to: 4.0
@@ -43,6 +43,8 @@ Use shortcode wherever you want.
 1. examle of  CODE128
 
 == Changelog ==
+1.0.3 Add capturing the output buffer for display shortcode.
+
 1.0.2 Little changes in readme.txt
 
 1.0.1 Little changes in readme.txt
